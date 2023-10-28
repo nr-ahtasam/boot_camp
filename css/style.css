@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+.Nav_Bar {
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nav_Bar .Nav_Bar_Logo {
+  margin-left: 50px;
+  /* margin-top: 40px; */
+  width: 40%;
+  height: 80px;
+  display: flex;
+}
+.Nav_Bar .Nav_Bar_Logo img {
+  width: 80px;
+  height: 65px;
+}
+.Nav_Bar .Nav_Bar_Logo .LogoName {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.Nav_Bar .Nav_Bar_Items {
+  width: 40%;
+  height: 80px;
+  /* background-color: red; */
+}
+.Nav_Bar .Nav_Bar_Items ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.Nav_Bar .Nav_Bar_Button {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  position: relative;
+}
+
+.Nav_Bar .Nav_Bar_Button .NavButton button {
+  background-image: linear-gradient(
+    to right,
+    rgb(80, 106, 183),
+    rgb(19, 45, 161)
+  );
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  width: 150px;
+  height: 30px;
+  /* background: green; */
+}
+.Nav_Bar .Nav_Bar_Button .rightSideProfileImage img {
+  width: 50px;
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 20px;
+  border-radius: 50px;
+}
+.mainBanner {
+  background-color: #363035;
+  padding-bottom: 50px;
+}
+.BannerImage {
+  width: 100%;
+}
+.BannerImage img {
+  width: 80%;
+  /* margin-left: 150px; */
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.info {
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+  height: 60px;
+}
+.info img {
+  margin-top: 10px;
+  height: 100%;
+  border-radius: 50px;
+}
+.info .creatorName {
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: aliceblue;
+}
+.info .creatorRole {
+  margin-left: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+.icon .material-symbols-outlined {
+  color: rgb(203, 12, 12);
+  margin-left: 600px;
+  margin-top: 30px;
+  /* background-color: red; */
+}
+.Notification {
+  margin-top: 20px;
+  width: 100%;
+}
+.Notification .heading {
+  color: aliceblue;
+  width: 70%;
+}
+.description {
+  color: #150d0d;
+}
+.checkIT {
+  color: #150d0d;
+}
+.readMore {
+  color: aliceblue;
+  font-size: 25px;
+  margin-top: 0;
+}
+.readMore .material-symbols-outlined {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* popUpBody css start */
+.mainPopUp {
+  position: absolute;
+  margin-top: 5px;
+  top: 0px;
+  left: 5px;
+  width: 230px;
+  height: 130px;
+  background-color: rgb(238, 241, 244);
+  border-radius: 10px;
+
+  visibility: hidden;
+}
+.openPopUp {
+  visibility: visible;
+  transform: translateY(-10px) scale(1);
+  transition: transform 1s;
+  top: 70px;
+}
+.popUpHeadding {
+  display: flex;
+}
+.popupIcon {
+  margin-left: 10px;
+  font-size: 16px;
+  color: red;
+}
+.Bookmarks {
+  margin-left: 5px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.closeIncon {
+  background-color: rgb(174, 170, 170);
+  width: 20px;
+  height: 20px;
+  margin-left: 100px;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 50%;
+}
+.closeIncon:hover {
+  background-color: red;
+  transition: background-color 0.4s;
+}
+.userInfo {
+  display: flex;
+  background-color: #e8e8ed;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  /* visibility: hidden; */
+}
+.userInfo .bookmarkImage {
+  width: 40px;
+  /* height: 20px; */
+}
+.userInfo .bookmarkImage img {
+  width: 100%;
+  border-radius: 50px;
+}
+.userInfo .userName {
+  font-size: 15px;
+}
+.description2 {
+  font-size: 10px;
+  color: #2e94fc;
+}
+.gatterIcon {
+  font-size: 14px;
+  margin-left: 35px;
+  color: #2e94fc;
+}
